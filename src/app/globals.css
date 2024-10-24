@@ -25,3 +25,9 @@ body {
     text-wrap: balance;
   }
 }
+.map {
+  height: 50vh;
+  /* width: 200px;
+  display: block;
+  background-color: blueviolet; */
+}
