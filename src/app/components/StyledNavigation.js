@@ -17,14 +17,14 @@ export default function NavLinks() {
     { name: "Index", path: "/", icon: HomeIcon },
     { name: "Map", path: "/home", icon: MapIcon },
     { name: "About", path: "/about", icon: CakeIcon },
-    { name: "Contents", path: "/contents", icon: DocumentDuplicateIcon },
+    { name: "Order", path: "/contents", icon: DocumentDuplicateIcon },
     { name: "Contact us", path: "/contactus", icon: UserGroupIcon },
   ];
 
   return (
     <>
-    <nav class="bg-white border-gray-200 dark:bg-gray-900">
-    <div class="max-w-screen-xl flex flex-wrap mx-auto p-4">
+    <nav className="bg-white border-gray-200 dark:bg-gray-900">
+    <div className="max-w-screen-xl flex flex-wrap mx-auto p-4">
       {links.map((link) => {
         const LinkIcon = link.icon;
         return (
