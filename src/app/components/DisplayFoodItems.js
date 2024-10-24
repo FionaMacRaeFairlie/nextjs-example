@@ -15,8 +15,8 @@ const DisplayFoodItems = ({ foodList }) => {
 
   return (
     <>
-      {categories.map((item) => (
-        <div>
+      {categories.map((item, index) => (
+        <div key={index}>
           <hr/>
         <DisplayMenuCategory foodList={item} />
         </div>
