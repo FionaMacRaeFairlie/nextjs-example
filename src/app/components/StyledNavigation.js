@@ -13,7 +13,8 @@ import {
   export default function NavLinks() {
     const pathname = usePathname();
     const links = [
-        { name: "Home", path: "/" , icon:HomeIcon},
+        { name: "Index", path: "/" , icon:HomeIcon},
+        { name: "Home", path: "/home" , icon:HomeIcon},
         { name: "About", path: "/about" , icon:CakeIcon},
         { name: "Contents", path: "/contents" , icon:DocumentDuplicateIcon},
         { name: "Contact us", path: "/contactus" , icon:UserGroupIcon},
