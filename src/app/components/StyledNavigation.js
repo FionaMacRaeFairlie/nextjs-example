@@ -24,7 +24,9 @@ export default function NavLinks() {
   return (
     <>
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
-    <div className="max-w-screen-xl flex flex-wrap mx-auto p-4">
+    {/* <div className="max-w-screen-xl flex flex-wrap mx-auto p-4"> */}
+    {/* <div className="sticky top-0 flex items-center justify-between border-b border-slate-200 bg-white py-6 px-8"> */}
+    <div class="flex flex-wrap  mx-auto p-4">
       {links.map((link) => {
         const LinkIcon = link.icon;
         return (
